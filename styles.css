@@ -1,0 +1,28 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+div {
+    padding: 2em;
+    margin: 1em;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+    border: 2px solid black;
+    border-radius: 1em;
+}
+
+button {
+    padding: 2em;
+    margin: 1em;
+    width: 100%;
+}
+
+div .error {
+    background-color: rgb(255, 66, 66);
+    color: white;
+    border-color: rgb(255, 117, 117);
+}
